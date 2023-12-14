@@ -45,47 +45,30 @@
       height: 100%;
       object-fit: cover;
     }
-
-    .swiper {
-      width: 100%;
-      height: 300px;
-      margin: 20px auto;
-    }
-
-    .append-buttons {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .append-buttons button {
-      display: inline-block;
-      cursor: pointer;
-      border: 1px solid #007aff;
-      color: #007aff;
-      text-decoration: none;
-      padding: 4px 10px;
-      border-radius: 4px;
-      margin: 0 10px;
-      font-size: 13px;
-    }
   </style>
 </head>
 
 <body>
   <!-- Swiper -->
-
-  <div #swiperRef="" class="swiper mySwiper">
+  <!-- Swiper container -->
+  <div class="swiper mySwiper">
     <div class="swiper-wrapper">
       <div class="swiper-slide">Slide 1</div>
       <div class="swiper-slide">Slide 2</div>
       <div class="swiper-slide">Slide 3</div>
       <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-pagination"></div>
+    
   </div>
 
+  <!-- Custom navigation buttons outside the Swiper container -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -93,13 +76,16 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: 4,
+      slidesPerView: 'auto',
       centeredSlides: true,
       spaceBetween: 30,
-   
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
     });
-
   </script>
+
 </body>
 
 </html>

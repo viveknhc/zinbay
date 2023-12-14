@@ -1,0 +1,108 @@
+/* ========tab========= */
+@media only screen and (max-width:999px) {}
+
+/* ========mobile========= */
+@media only screen and (max-width:767px) {
+    header {
+        padding: 0 10px 30px 10px;
+    }
+
+    header .navbar {
+        margin: 10px 0;
+    }
+
+    .hero {
+        padding: 10px 0;
+    }
+
+    .hero .left .main-heading h1 {
+        font: 900 35px var(--primary-font-bold);
+        line-height: 37px;
+    }
+
+    .hero .left .main-heading .curve {
+        max-width: 25px;
+        position: absolute;
+        top: -5px;
+        left: 20%;
+    }
+
+
+    .hero .right .particle1 {
+        display: none;
+    }
+
+    .hero .left .get-start-btn {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .hero .left .play-btn img{
+        max-width: 70px;
+    }
+
+    /* How it Work */
+
+
+    .how-it-work .heading-box p {
+        width: 100%;
+    }
+
+    .how-it-work {
+        padding: 30px 0;
+    }
+
+    .how-it-work .heading-box img {
+        max-width: 35px;
+    }
+
+    .heading-box h2 {
+        font: 900 35px var(--primary-font-bold);
+    }
+
+    .heading-box p {
+        font: 400 14px var(--primary-font-lt);
+        line-height: 25px;
+    }
+
+    .how-it-work .card .card-title {
+        padding: 0px 0 6px 0;
+        font: 600 17px var(--primary-font);
+        
+    }
+
+    .how-it-work .card .card-text {
+        font: 14px var(--primary-font-lt);
+    }
+
+    .how-it-work .card img {
+        max-width: 50px;
+        background: rgba(236, 249, 255, 0.80);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    /* About us */
+
+    .about-us {
+        padding: 25px 0;
+    }
+
+    .about-us .heading-box img {
+        max-width: 35px;
+    }
+
+    .about-us .feature h5 {
+        padding: 15px 0 0 0;
+        font-size: 16px;
+    }
+
+    .about-us .feature p {
+        font-size: 14px;
+    }
+
+    .about-us .icon1 {
+        display: none;
+    }
+
+}

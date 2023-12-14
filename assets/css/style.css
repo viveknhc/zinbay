@@ -35,11 +35,11 @@
 /* Header */
 
 header {
-    height: 100vh;
     background-image: url('../images/home/banner.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 header .container {
@@ -50,6 +50,8 @@ header .container {
 header .navbar {
     background-color: var(--white-color) !important;
     padding: 20px 15px;
+    border-radius: 10px;
+
 }
 
 header .navbar .nav-link {
@@ -106,8 +108,145 @@ header .signin-btn {
     font: 400 16px var(--primary-font-lt);
     color: var(--gray-color);
     margin: auto;
+    line-height: 28px;
 }
 
+/* Hero */
+
+.hero{
+    padding: 80px 0;
+}
+
+.hero .right{
+    position: relative;
+}
+
+.hero .right .item2{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero .right .item3{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.hero .right .item4{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.hero .right .particle1{
+    position: absolute;
+    right: -16px;
+    top: -28px;
+}
+
+
+
+
+.hero .left .main-heading{
+    position: relative;
+}
+
+.hero .left .main-heading .curve{
+    position: absolute;
+    top: -5px;
+    left: 23%;
+
+}
+
+
+
+.hero .left .main-heading h1{
+    font: 900 50px var(--primary-font-bold);
+    color: var(--primary-color);
+    line-height: 65px
+}
+
+.hero .left .main-heading p{
+    font: 400 16px var(--primary-font-lt);
+    color: var(--gray-color);
+    margin: auto;
+}
+
+.hero .left .get-start{
+    display: flex;
+    align-items: center;
+    padding: 0 0 30px 0;
+}
+
+.hero .left .play-btn{
+    margin: 0 0 0 10px;
+
+}
+
+.hero .left .content-box p{
+    color: var(--gray-color);
+    font-size: 16px;
+    font-family: 'Primary-font-lt';
+}
+
+.hero .left .quote{
+    background-color: var(--white-color);
+    border-radius: 15px;
+    padding: 18px;
+}
+
+.hero .left .quote .quote-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.hero .left .quote .quote-header p{
+    color: var(--gray-color);
+    font-size: 14px;
+    font-family: 'Primary-font-lt';
+    margin: 0;
+
+}
+
+
+.hero .left .quote p{
+    color: var(--gray-color);
+    font-size: 14px;
+    font-family: 'Primary-font-lt';
+}
+
+
+.hero .left .quote p span{
+    font-weight: 700;
+}
+
+
+
+.hero .left .get-start-btn{
+    font-family: var(--primary-font);
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.hero .left .rating{
+    display: flex;
+}
+
+.hero .left .rating p{
+    color: var(--primary-color) !important;
+    font-size: 14px !important;
+    font-family: 'Primary-font' !important;
+    font-weight: 700;
+    padding: 0 0 0 10px;
+}
 
 
 /* How it works */
@@ -210,21 +349,20 @@ header .signin-btn {
 
 .about-us .icon1 {
     position: absolute;
-    right: 0px;
+    right: -70px;
     top: -85px;
 }
 
 .about-us .icon2 {
     position: absolute;
-    right: 5px;
-    bottom: -38px;
+    right: -34px;
+    bottom: 0px 
 }
 
 .about-us .growth {
     position: absolute;
-    position: absolute;
-    left: -50px;
-    bottom: -81px;
+    left: 0;
+    bottom: 0;
 }
 
 /* Services */
@@ -266,7 +404,7 @@ header .signin-btn {
 
 .news-letter .heading-box img {
     position: absolute;
-    left: 29%;
+    left: 34%;
     top: -6px;
 }
 
@@ -283,6 +421,7 @@ header .signin-btn {
 .news-letter .news-letter-box img {
     position: absolute;
     bottom: 0;
+    right: 0;
 }
 
 .news-letter .news-letter-box form .row {
