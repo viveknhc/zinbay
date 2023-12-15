@@ -7,9 +7,12 @@
     <title>Bizpro</title>
     <!-- bootstap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <!-- font asesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!-- style -->
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -226,7 +229,7 @@
         </div>
     </section>
 
-<!-- Service -->
+    <!-- Service -->
     <section>
         <div class="services">
             <div class="container">
@@ -235,10 +238,37 @@
                         <img class="img-fluid" src="assets/images/icon/curve.png" alt="">
                         <h2>Popular packages</h2>
                     </div>
+
+                    <div class="nav-btn">
+
+                        <i id="prevButton" class="fa-solid fa-chevron-left"></i>
+
+                        <i id="nextButton" class="fa-solid fa-chevron-right"></i>
+
+                    </div>
+
                 </div>
             </div>
 
             <div class="container">
+
+                <div class="service-box">
+                    <div class="swiper mySwiper service-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">Slide 1</div>
+                            <div class="swiper-slide">Slide 2</div>
+                            <div class="swiper-slide">Slide 3</div>
+                            <div class="swiper-slide">Slide 4</div>
+                            <div class="swiper-slide">Slide 5</div>
+                            <div class="swiper-slide">Slide 6</div>
+                            <div class="swiper-slide">Slide 7</div>
+                            <div class="swiper-slide">Slide 8</div>
+                            <div class="swiper-slide">Slide 9</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
 
             </div>
         </div>
@@ -308,6 +338,10 @@
 
     <!-- bootstap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- custom script -->
+    <script src="assets/javascript/script.js"></script>
 </body>
 
 </html>

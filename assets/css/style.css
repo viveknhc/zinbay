@@ -363,6 +363,7 @@ header .signin-btn {
     position: absolute;
     left: 0;
     bottom: 0;
+    filter: drop-shadow(-15px 20px 70px 0px rgba(0, 0, 47, 0.03));
 }
 
 /* Services */
@@ -383,6 +384,29 @@ header .signin-btn {
     position: absolute;
     left: 15.6%;
     top: -6px;
+}
+
+.services .nav-btn{
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.services .nav-btn .fa-chevron-left{
+    padding: 13px 16px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 18px;
+    color: var(--gray-color);
+}
+
+.services .nav-btn .fa-chevron-right{
+    padding: 13px 16px;
+    background-color: var(--secondary-color);
+    font-size: 18px;
+    color: var(--white-color);
+    border-radius: 10px;
 }
 
 /* Global */
