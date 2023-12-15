@@ -113,35 +113,35 @@ header .signin-btn {
 
 /* Hero */
 
-.hero{
+.hero {
     padding: 80px 0;
 }
 
-.hero .right{
+.hero .right {
     position: relative;
 }
 
-.hero .right .item2{
+.hero .right .item2 {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.hero .right .item3{
+.hero .right .item3 {
     position: absolute;
     bottom: 0;
     left: 0;
 
 }
 
-.hero .right .item4{
+.hero .right .item4 {
     position: absolute;
     right: 0;
     top: 0;
 }
 
 
-.hero .right .particle1{
+.hero .right .particle1 {
     position: absolute;
     right: -16px;
     top: -28px;
@@ -150,11 +150,11 @@ header .signin-btn {
 
 
 
-.hero .left .main-heading{
+.hero .left .main-heading {
     position: relative;
 }
 
-.hero .left .main-heading .curve{
+.hero .left .main-heading .curve {
     position: absolute;
     top: -5px;
     left: 23%;
@@ -163,48 +163,48 @@ header .signin-btn {
 
 
 
-.hero .left .main-heading h1{
+.hero .left .main-heading h1 {
     font: 900 50px var(--primary-font-bold);
     color: var(--primary-color);
     line-height: 65px
 }
 
-.hero .left .main-heading p{
+.hero .left .main-heading p {
     font: 400 16px var(--primary-font-lt);
     color: var(--gray-color);
     margin: auto;
 }
 
-.hero .left .get-start{
+.hero .left .get-start {
     display: flex;
     align-items: center;
     padding: 0 0 30px 0;
 }
 
-.hero .left .play-btn{
+.hero .left .play-btn {
     margin: 0 0 0 10px;
 
 }
 
-.hero .left .content-box p{
+.hero .left .content-box p {
     color: var(--gray-color);
     font-size: 16px;
     font-family: 'Primary-font-lt';
 }
 
-.hero .left .quote{
+.hero .left .quote {
     background-color: var(--white-color);
     border-radius: 15px;
     padding: 18px;
 }
 
-.hero .left .quote .quote-header{
+.hero .left .quote .quote-header {
     display: flex;
     justify-content: space-between;
     align-items: start;
 }
 
-.hero .left .quote .quote-header p{
+.hero .left .quote .quote-header p {
     color: var(--gray-color);
     font-size: 14px;
     font-family: 'Primary-font-lt';
@@ -213,20 +213,20 @@ header .signin-btn {
 }
 
 
-.hero .left .quote p{
+.hero .left .quote p {
     color: var(--gray-color);
     font-size: 14px;
     font-family: 'Primary-font-lt';
 }
 
 
-.hero .left .quote p span{
+.hero .left .quote p span {
     font-weight: 700;
 }
 
 
 
-.hero .left .get-start-btn{
+.hero .left .get-start-btn {
     font-family: var(--primary-font);
     border: none;
     background-color: var(--primary-color);
@@ -236,11 +236,11 @@ header .signin-btn {
     font-size: 14px;
 }
 
-.hero .left .rating{
+.hero .left .rating {
     display: flex;
 }
 
-.hero .left .rating p{
+.hero .left .rating p {
     color: var(--primary-color) !important;
     font-size: 14px !important;
     font-family: 'Primary-font' !important;
@@ -356,7 +356,7 @@ header .signin-btn {
 .about-us .icon2 {
     position: absolute;
     right: -34px;
-    bottom: 0px 
+    bottom: 0px
 }
 
 .about-us .growth {
@@ -386,14 +386,14 @@ header .signin-btn {
     top: -6px;
 }
 
-.services .nav-btn{
+.services .nav-btn {
     background-color: var(--white-color);
     padding: 10px;
     border-radius: 10px;
 
 }
 
-.services .nav-btn .fa-chevron-left{
+.services .nav-btn .fa-chevron-left {
     padding: 13px 16px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -401,13 +401,87 @@ header .signin-btn {
     color: var(--gray-color);
 }
 
-.services .nav-btn .fa-chevron-right{
+.services .nav-btn .fa-chevron-right {
     padding: 13px 16px;
     background-color: var(--secondary-color);
     font-size: 18px;
     color: var(--white-color);
     border-radius: 10px;
 }
+
+.services .service-box .card {
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.20);
+}
+
+.services .service-box .card .card-title{
+    color: var(--primary-color);
+    font: 500 20px var(--primary-font-bold);
+    line-height: 28px;
+}
+
+.services .service-box .card .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services .service-box .card .footer .user-box{
+    display: flex;
+    align-items: center;
+}
+
+.services .service-box .card .footer .price{
+    color: var(--secondary-color);
+    font: 500 16px var(--primary-font-bold);
+}
+
+.services .service-box .card .footer .user-box h5{
+    color: #9090A7;
+    font: 16px var(--primary-font-lt);
+    margin: 0;
+    padding: 0 0 0 54px
+}
+
+.services .service-box .card .footer .user-box .user-img-box img{
+    max-width: 40px;
+    border-radius: 100%;
+    border: 2px solid var(--white-color)
+}
+
+.services .service-box .card .footer .user-box .user-img-box {
+    position: relative;
+}
+
+.services .service-box .card .footer .user-box .user-img-box img:nth-child(2){
+    position: absolute;
+    left: 22px;
+    top: 0;
+    z-index: 1;
+}
+
+.services .service-box .card .footer .user-box .user-img-box img:nth-child(3){
+    position: absolute;
+    left: 45px;
+    top: 0;
+    z-index: 2;
+}
+
+
+.service-swiper-container{
+    margin-right: 0;
+    max-width: 1600px 
+}
+
+
+
+
+
+
+
+
 
 /* Global */
 .global {
