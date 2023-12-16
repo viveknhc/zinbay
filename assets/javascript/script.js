@@ -53,3 +53,14 @@ $("img.lazy").lazyload({
 // aos
 
 AOS.init();
+
+
+
+// VIDEO POPUP
+
+$('#youtube').magnificPopup({
+  items: {
+      src: 'https://www.youtube.com/watch?v=njX2bu-_Vw4'
+  },
+  type: 'iframe'
+});
