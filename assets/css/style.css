@@ -94,6 +94,11 @@
 
 /* Header */
 
+
+section {
+    overflow: hidden;
+}
+
 header {
     background-image: url('../images/home/banner.jpg');
     background-position: bottom;
@@ -151,7 +156,7 @@ header .signin-btn {
 
 /* initial */
 
-.btn-primary{
+.btn-primary {
     font-family: var(--primary-font);
     border: none;
     background-color: var(--primary-color);
@@ -163,7 +168,7 @@ header .signin-btn {
     transition: background 0.3s ease-in;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
     font-family: var(--primary-font);
     border: none;
     background-color: var(--secondary-color);
@@ -428,6 +433,7 @@ header .signin-btn {
 
 .about-us .right {
     position: relative;
+    text-align: center;
 
 }
 
@@ -444,14 +450,15 @@ header .signin-btn {
 .about-us .icon2 {
     position: absolute;
     right: -34px;
-    bottom: 0px
+    bottom: -32px;
 }
 
 .about-us .growth {
     position: absolute;
     left: -21px;
     bottom: -60px;
-    /* box-shadow: 0px 5.133px 38.5px 0px rgba(6, 6, 64, 0.10); */
+    filter: drop-shadow(2px 2px 20px #00000010);
+    animation: upDown 3s linear infinite;
 }
 
 /* Services */
@@ -466,7 +473,7 @@ header .signin-btn {
     background-size: cover;
 }
 
-.services .service-heading-box{
+.services .service-heading-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -510,7 +517,7 @@ header .signin-btn {
     transition: background 0.3s ease-in;
 }
 
-.services .service-box .card:hover{
+.services .service-box .card:hover {
     background: var(--white-color);
 }
 
@@ -671,6 +678,8 @@ header .signin-btn {
     padding: 70px 0;
 }
 
+
+
 .news-letter .heading-box img {
     position: absolute;
     left: 34%;
@@ -686,6 +695,22 @@ header .signin-btn {
     background-size: cover;
     position: relative;
 }
+
+.news-letter .news-letter-box .shape-1 {
+    position: absolute;
+    right: 7%;
+    top: -19%;
+}
+
+.news-letter .news-letter-box .shape-2 {
+    position: absolute;
+    right: -6%;
+    bottom: -16%;
+}
+
+
+
+
 
 .news-letter .news-letter-box .img-box img {
     position: absolute;
@@ -795,6 +820,10 @@ footer .copy-right .content-box p {
 footer .copy-right .content-box p span {
     color: var(--secondary-color);
 
+}
+
+footer .footer-logo {
+    max-width: 100px;
 }
 
 
