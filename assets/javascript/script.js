@@ -29,7 +29,7 @@ var swiper = new Swiper(".service-slider", {
 });
 
 
-// TAKING LAST IMAGE OF USER
+// taking last user
 
 function updateImages() {
   const container = document.getElementById('userImgBox');

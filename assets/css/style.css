@@ -1,3 +1,5 @@
+/* Fonts */
+
 @font-face {
     font-family: 'Primary-font';
     src: url('../font/airbnb-cereal-font/AirbnbCereal_W_Bk.otf');
@@ -13,8 +15,7 @@
     src: url('../font/airbnb-cereal-font/AirbnbCereal_W_Lt.otf')
 }
 
-
-
+/* style */
 
 * {
     padding: 0;
@@ -32,7 +33,6 @@
     --primary-font-bold: 'Primary-font-bold';
     --primary-font-lt: 'Primary-font-lt';
 }
-
 
 /* Preloader */
 .loader-box {
@@ -91,9 +91,7 @@
     }
 }
 
-
 /* Header */
-
 
 section {
     overflow: hidden;
@@ -178,8 +176,6 @@ header .signin-btn {
     font-size: 14px;
 }
 
-
-
 /* Heading */
 
 .heading-box {
@@ -240,9 +236,6 @@ header .signin-btn {
     animation: diagonalMove 3s linear infinite;
 }
 
-
-
-
 .hero .left .main-heading {
     position: relative;
 }
@@ -253,8 +246,6 @@ header .signin-btn {
     left: 23%;
 
 }
-
-
 
 .hero .left .main-heading h1 {
     font: 900 50px var(--primary-font-bold);
@@ -304,7 +295,6 @@ header .signin-btn {
     margin: 0;
 
 }
-
 
 .hero .left .quote p {
     color: var(--gray-color);
@@ -463,8 +453,6 @@ header .signin-btn {
 
 /* Services */
 
-
-
 .services {
     padding: 70px 0;
     background-image: url('../images/services/Services-bg.jpg');
@@ -520,8 +508,6 @@ header .signin-btn {
 .services .service-box .card:hover {
     background: var(--white-color);
 }
-
-
 
 .services .service-box .card .card-title {
     color: var(--primary-color);
@@ -678,8 +664,6 @@ header .signin-btn {
     padding: 70px 0;
 }
 
-
-
 .news-letter .heading-box img {
     position: absolute;
     left: 34%;
@@ -707,10 +691,6 @@ header .signin-btn {
     right: -6%;
     bottom: -16%;
 }
-
-
-
-
 
 .news-letter .news-letter-box .img-box img {
     position: absolute;
@@ -751,7 +731,6 @@ footer {
     background-color: var(--primary-color);
     padding: 55px 0 0 0;
 }
-
 
 footer .footer-about p {
     font: 400 16px var(--primary-font-lt);
@@ -826,10 +805,7 @@ footer .footer-logo {
     max-width: 100px;
 }
 
-
 /*======= ANIMATIONS ========*/
-
-
 
 @keyframes downUp {
     0% {
